@@ -8,6 +8,8 @@
 **Supervisors**: Prof. Vukosi Marivate, Ms. Seani Rananga, Mr. Thapelo Sindane  
 **Date**: October 2024  
 
+Environment: This project was done in [Kaggle](kaggle.com)
+
 ---
 
 ### Introduction
@@ -21,5 +23,8 @@ The workflow involves four main steps:
 3. **Classification:** These embeddings are fed into different machine learning models — Random Forest, Logistic Regression, and SVM — to classify the misinformation.
 4. **XAI Application:** The best-performing classification model is further analysed using LIME (Local Interpretable Model-agnostic Explanations) to explain its predictions.
 
-_Note: ensure to create your own `.env` file and add `GOOGLE_API_KEY = <your-google-api-key>`. This is important if you want to make use of Gemini for translations. You can find an API key [here](https://ai.google.dev/gemini-api/docs/api-key?authuser=2)_
+
+Note: ensure to create your own `.env` file and add `GOOGLE_API_KEY = <your-google-api-key>`. This is important if you want to make use of Gemini for translations. You can find an API key [here](https://ai.google.dev/gemini-api/docs/api-key?authuser=2)
+
+Another option is to use Kaggle and upload the notebook and data files
 
