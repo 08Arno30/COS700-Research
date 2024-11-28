@@ -28,3 +28,6 @@ Note: ensure to create your own `.env` file and add `GOOGLE_API_KEY = <your-goog
 
 Another option is to use Kaggle and upload the notebook and data files
 
+--- 
+
+Note: The notebook with extras (i.e. `xai-for-afrikaans-misinformation(wit-extras)`) is a raw, extended version of the other notebook. It includes code for experiment purposes of for example translation performance between models on dataset's that do not revolve around misinformation. Hence, the other cleaned notebook (i.e. `xai-for-afrikaans-misinformation`) should be used to follow the core workflow of this research. 
